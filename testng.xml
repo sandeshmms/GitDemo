@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+<listeners>
+<listener class-name="testing.Listeners"></listener>
+</listeners>
+<test name="Test1" parallel="classes" thread-count="2">
+	<groups>
+		<run>
+			<include name="P1"></include>
+			<include name="P2"></include>
+		</run>
+	</groups>
+	<classes>
+		<class name="testing.TC_001"/>
+		<class name="testing.TC_002"/>
+	</classes>
+</test>
+</suite>
