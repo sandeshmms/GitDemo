@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.sawanttech</groupId>
-  <artifactId>TestNGWorkingProject</artifactId>
+  <groupId>com.gitdemotech</groupId>
+  <artifactId>GitProjectDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>TestNGWorkingProject</name>
+  <name>GitProjectDemo</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -21,7 +21,7 @@
 <profile>
 <id>Regression</id>
 	  <build>
-        <resources>
+	    <resources>
 	        <resource>
 	            <directory>src/main/resources</directory>
 	        </resource>
@@ -42,16 +42,16 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-	        <plugin>
-	          <groupId>org.apache.maven.plugins</groupId>
-	          <artifactId>maven-surefire-plugin</artifactId>
-	          <version>3.0.0-M4</version>
-	             <configuration>
-			          <suiteXmlFiles>
-				          <suiteXmlFile>testng.xml</suiteXmlFile>
-			          </suiteXmlFiles>
-			     </configuration>
-	        </plugin>
+			<plugin>
+			  <groupId>org.apache.maven.plugins</groupId>
+			  <artifactId>maven-surefire-plugin</artifactId>
+			  <version>3.0.0-M4</version>
+			     <configuration>
+					  <suiteXmlFiles>
+						  <suiteXmlFile>testng.xml</suiteXmlFile>
+					  </suiteXmlFiles>
+			    </configuration>
+			</plugin>
 	      </plugins>
 	    </pluginManagement>
 	  </build>
@@ -75,6 +75,4 @@
 
 	</dependencies>
 
-
 </project>
-
