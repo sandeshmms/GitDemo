@@ -60,6 +60,7 @@ public class BaseClass
 	public void ameth()
 	{
 		System.out.println("After Method called");
+		System.out.println("After Method called-1");
 	}
 
 }
