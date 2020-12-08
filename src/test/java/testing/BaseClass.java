@@ -3,10 +3,12 @@ package testing;
 import java.io.IOException;
 
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterGroups;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -50,6 +52,18 @@ public class BaseClass
 		System.out.println("After Class called");
 	}
 
+	@BeforeGroups(groups= {"P1","P2"})
+	public void b1Class()
+	{
+		System.out.println("Before Group called");
+	}
+
+	@AfterGroups(groups= {"P1","P2"})
+	public void a1Class()
+	{
+		System.out.println("After Group called");
+	}
+
 	@BeforeMethod(onlyForGroups={"P1"}, alwaysRun=true)
 	public void bmeth()
 	{
@@ -65,6 +79,7 @@ public class BaseClass
 		System.out.println("After Method called-3");
 		System.out.println("After Method called-4");
 		System.out.println("After Method called-5");
+		System.out.println("After Method called-6");
 	}
 
 }

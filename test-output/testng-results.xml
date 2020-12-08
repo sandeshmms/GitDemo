@@ -1,163 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="5" total="11" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="189" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
+  <suite name="Suite" duration-ms="141" started-at="2020-11-29T12:16:05 IST" finished-at="2020-11-29T12:16:05 IST">
     <groups>
-      <group name="P1">
-        <method signature="TC_001.tCase1()[pri:0, instance:testing.TC_001@feb982]" name="tCase1" class="testing.TC_001"/>
-        <method signature="TC_001.tCase2()[pri:0, instance:testing.TC_001@feb982]" name="tCase2" class="testing.TC_001"/>
-        <method signature="TC_002.tCase4()[pri:0, instance:testing.TC_002@765367]" name="tCase4" class="testing.TC_002"/>
-        <method signature="TC_002.tCase5()[pri:0, instance:testing.TC_002@765367]" name="tCase5" class="testing.TC_002"/>
-        <method signature="TC_002.verifyData(java.lang.String, java.lang.String, int)[pri:0, instance:testing.TC_002@765367]" name="verifyData" class="testing.TC_002"/>
-      </group> <!-- P1 -->
-      <group name="P2">
-        <method signature="TC_002.tCase5()[pri:0, instance:testing.TC_002@765367]" name="tCase5" class="testing.TC_002"/>
-      </group> <!-- P2 -->
     </groups>
-    <test name="Test1" duration-ms="189" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-      <class name="testing.TC_002">
-        <test-method status="PASS" signature="bClass()[pri:0, instance:testing.TC_002@765367]" name="bClass" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
+    <test name="Test1" duration-ms="141" started-at="2020-11-29T12:16:05 IST" finished-at="2020-11-29T12:16:05 IST">
+      <class name="testing.tes.Class6">
+        <test-method status="PASS" signature="tm6()[pri:0, instance:testing.tes.Class6@1af0466]" name="tm6" duration-ms="0" started-at="2020-11-29T12:16:05 IST" finished-at="2020-11-29T12:16:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bClass -->
-        <test-method status="PASS" signature="bmeth()[pri:0, instance:testing.TC_002@765367]" name="bmeth" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
+        </test-method> <!-- tm6 -->
+      </class> <!-- testing.tes.Class6 -->
+      <class name="testing.pkg6testab12.Class7">
+        <test-method status="PASS" signature="tm7()[pri:0, instance:testing.pkg6testab12.Class7@1f095f8]" name="tm7" duration-ms="16" started-at="2020-11-29T12:16:05 IST" finished-at="2020-11-29T12:16:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bmeth -->
-        <test-method status="PASS" signature="tCase4()[pri:0, instance:testing.TC_002@765367]" name="tCase4" duration-ms="20" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
+        </test-method> <!-- tm7 -->
+      </class> <!-- testing.pkg6testab12.Class7 -->
+      <class name="testing.testing123.Class3">
+        <test-method status="PASS" signature="tm3()[pri:0, instance:testing.testing123.Class3@6ef8ad]" name="tm3" duration-ms="0" started-at="2020-11-29T12:16:05 IST" finished-at="2020-11-29T12:16:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tCase4 -->
-        <test-method status="PASS" signature="tCase5()[pri:0, instance:testing.TC_002@765367]" name="tCase5" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
+        </test-method> <!-- tm3 -->
+      </class> <!-- testing.testing123.Class3 -->
+      <class name="testing.testing123.pkg4.Class4">
+        <test-method status="PASS" signature="tm4()[pri:0, instance:testing.testing123.pkg4.Class4@6d61be]" name="tm4" duration-ms="0" started-at="2020-11-29T12:16:05 IST" finished-at="2020-11-29T12:16:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tCase5 -->
-        <test-method status="PASS" signature="ameth()[pri:0, instance:testing.TC_002@765367]" name="ameth" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
+        </test-method> <!-- tm4 -->
+      </class> <!-- testing.testing123.pkg4.Class4 -->
+      <class name="testing.abcd.santest123.Class8">
+        <test-method status="PASS" signature="tm8()[pri:0, instance:testing.abcd.santest123.Class8@f7cfd9]" name="tm8" duration-ms="15" started-at="2020-11-29T12:16:05 IST" finished-at="2020-11-29T12:16:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ameth -->
-        <test-method status="PASS" signature="bmeth()[pri:0, instance:testing.TC_002@765367]" name="bmeth" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bmeth -->
-        <test-method status="PASS" signature="ameth()[pri:0, instance:testing.TC_002@765367]" name="ameth" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ameth -->
-        <test-method status="PASS" signature="bmeth()[pri:0, instance:testing.TC_002@765367]" name="bmeth" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bmeth -->
-        <test-method status="PASS" signature="verifyData(java.lang.String, java.lang.String, int)[pri:0, instance:testing.TC_002@765367]" name="verifyData" duration-ms="0" started-at="2020-06-16T21:21:52 IST" data-provider="testdata" finished-at="2020-06-16T21:21:52 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyData -->
-        <test-method status="PASS" signature="ameth()[pri:0, instance:testing.TC_002@765367]" name="ameth" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ameth -->
-        <test-method status="PASS" signature="bmeth()[pri:0, instance:testing.TC_002@765367]" name="bmeth" is-config="true" duration-ms="10" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bmeth -->
-        <test-method status="PASS" signature="verifyData(java.lang.String, java.lang.String, int)[pri:0, instance:testing.TC_002@765367]" name="verifyData" duration-ms="1" started-at="2020-06-16T21:21:52 IST" data-provider="testdata" finished-at="2020-06-16T21:21:52 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[23]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyData -->
-        <test-method status="PASS" signature="ameth()[pri:0, instance:testing.TC_002@765367]" name="ameth" is-config="true" duration-ms="1" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ameth -->
-        <test-method status="PASS" signature="aClass()[pri:0, instance:testing.TC_002@765367]" name="aClass" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aClass -->
-      </class> <!-- testing.TC_002 -->
-      <class name="testing.TC_001">
-        <test-method status="PASS" signature="bSuite()[pri:0, instance:testing.TC_001@feb982]" name="bSuite" is-config="true" duration-ms="20" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bSuite -->
-        <test-method status="PASS" signature="bTest()[pri:0, instance:testing.TC_001@feb982]" name="bTest" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bTest -->
-        <test-method status="PASS" signature="bClass()[pri:0, instance:testing.TC_001@feb982]" name="bClass" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bClass -->
-        <test-method status="PASS" signature="bmeth()[pri:0, instance:testing.TC_001@feb982]" name="bmeth" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bmeth -->
-        <test-method status="PASS" signature="tCase1()[pri:0, instance:testing.TC_001@feb982]" name="tCase1" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tCase1 -->
-        <test-method status="PASS" signature="ameth()[pri:0, instance:testing.TC_001@feb982]" name="ameth" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ameth -->
-        <test-method status="PASS" signature="tCase2()[pri:0, instance:testing.TC_001@feb982]" name="tCase2" duration-ms="10" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tCase2 -->
-        <test-method status="PASS" signature="bmeth()[pri:0, instance:testing.TC_001@feb982]" name="bmeth" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bmeth -->
-        <test-method status="PASS" signature="aClass()[pri:0, instance:testing.TC_001@feb982]" name="aClass" is-config="true" duration-ms="10" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aClass -->
-        <test-method status="PASS" signature="ameth()[pri:0, instance:testing.TC_001@feb982]" name="ameth" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ameth -->
-        <test-method status="PASS" signature="aTest()[pri:0, instance:testing.TC_001@feb982]" name="aTest" is-config="true" duration-ms="1" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aTest -->
-        <test-method status="PASS" signature="aSuite()[pri:0, instance:testing.TC_001@feb982]" name="aSuite" is-config="true" duration-ms="0" started-at="2020-06-16T21:21:52 IST" finished-at="2020-06-16T21:21:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aSuite -->
-      </class> <!-- testing.TC_001 -->
+        </test-method> <!-- tm8 -->
+      </class> <!-- testing.abcd.santest123.Class8 -->
     </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>
