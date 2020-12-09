@@ -65,6 +65,7 @@ public class BaseClass
 		System.out.println("After Method called-3");
 		System.out.println("After Method called-4");
 		System.out.println("After Method called-5");
+		System.out.println("After Method called-6");
 	}
 
 }
