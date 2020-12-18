@@ -55,6 +55,7 @@ public class BaseClass
 	{
 		System.out.println("Before Method called");
 		System.out.println("Before Method called-1");
+		System.out.println("Before Method called-2");
 	}
 
 	@AfterMethod(onlyForGroups={"P1"}, alwaysRun=true)
