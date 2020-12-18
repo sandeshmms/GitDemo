@@ -66,6 +66,7 @@ public class BaseClass
 		System.out.println("After Group called-2");
 		System.out.println("After Group called-3");
 		System.out.println("After Group called-4");
+		System.out.println("After Group called-5");
 	}
 
 	@BeforeMethod(onlyForGroups={"P1"}, alwaysRun=true)
