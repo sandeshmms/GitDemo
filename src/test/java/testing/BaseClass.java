@@ -55,52 +55,25 @@ public class BaseClass
 	@BeforeGroups(groups= {"P1","P2"})
 	public void b1Class()
 	{
-		System.out.println("Before Group called-1");
-		System.out.println("Before Group called-2");
+		System.out.println("Before Group called");
 	}
 
 	@AfterGroups(groups= {"P1","P2"})
 	public void a1Class()
 	{
 		System.out.println("After Group called");
-		System.out.println("After Group called-1");
-		System.out.println("After Group called-2");
-		System.out.println("After Group called-3");
-		System.out.println("After Group called-4");
-		System.out.println("After Group called-5");
-		System.out.println("After Group called-6");
-		System.out.println("After Group called-7");
-		System.out.println("After Group called-8");
-		System.out.println("After Group called-9");
-		System.out.println("After Group called-10");
-		System.out.println("After Group called-11");
-		System.out.println("After Group called-12");
-		System.out.println("After Group called-13");
-		System.out.println("After Group called-14");
 	}
 
 	@BeforeMethod(onlyForGroups={"P1"}, alwaysRun=true)
 	public void bmeth()
 	{
-		System.out.println("Before Method called-1");
-		System.out.println("Before Method called-2");		
+		System.out.println("Before Method called");
 	}
 
 	@AfterMethod(onlyForGroups={"P1"}, alwaysRun=true)
 	public void ameth()
 	{
 		System.out.println("After Method called");
-		System.out.println("After Method called-1");
-		System.out.println("After Method called-2");
-		System.out.println("After Method called-3");
-		System.out.println("After Method called-4");
-		System.out.println("After Method called-5");
-		System.out.println("After Method called-6");
-		System.out.println("After Method called-7");
-		System.out.println("After Method called-8");
-		System.out.println("After Method called-9");
-		System.out.println("After Method called-10");
-		System.out.println("After Method called-11");
 	}
 
 }
