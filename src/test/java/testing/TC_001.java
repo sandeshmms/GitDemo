@@ -9,11 +9,13 @@ public class TC_001 extends BaseClass
 	public void tCase1()
 	{
 		System.out.println("Inside testcase 1");
+		System.out.println("Inside testcase 1");
 	}
 
 	@Test(groups= {"P1"})
 	public void tCase2()
 	{
+		System.out.println("Inside testcase 2");
 		System.out.println("Inside testcase 2");
 	}
 
@@ -24,4 +26,3 @@ public class TC_001 extends BaseClass
 	}
 
 }
-
