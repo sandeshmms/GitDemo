@@ -56,6 +56,7 @@ public class BaseClass
 	public void b1Class()
 	{
 		System.out.println("Before Group called-1");
+		System.out.println("Before Group called-2");
 	}
 
 	@AfterGroups(groups= {"P1","P2"})
