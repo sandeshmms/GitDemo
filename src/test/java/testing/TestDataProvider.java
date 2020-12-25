@@ -2,7 +2,8 @@ package testing;
 
 import org.testng.annotations.DataProvider;
 
-public class TestDataProvider {
+public class TestDataProvider
+{
 
 	@DataProvider(name="testdata")
 	public Object[][] createData()
@@ -21,4 +22,3 @@ public class TestDataProvider {
 	}
 
 }
-
