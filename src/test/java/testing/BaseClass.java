@@ -59,7 +59,8 @@ public class BaseClass
 	@AfterMethod(onlyForGroups={"P1"}, alwaysRun=true)
 	public void ameth()
 	{
-		System.out.println("After Method called");
+		System.out.println("After Method called-1");
+		System.out.println("After Method called-2");
 	}
 
 }
