@@ -67,17 +67,13 @@ public class BaseClass
 	@BeforeMethod(onlyForGroups={"P1"}, alwaysRun=true)
 	public void bmeth()
 	{
-		System.out.println("Before Method called-1");
-		System.out.println("Before Method called-2");
+		System.out.println("Before Method called");
 	}
 
 	@AfterMethod(onlyForGroups={"P1"}, alwaysRun=true)
 	public void ameth()
 	{
 		System.out.println("After Method called");
-		System.out.println("After Method called-1");
-		System.out.println("After Method called-2");
-		System.out.println("After Method called-3");
 	}
 
 }
